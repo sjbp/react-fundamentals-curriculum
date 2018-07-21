@@ -6,8 +6,8 @@ class Header extends React.Component {
       <div className='navbar'>
         <h1>Clever Title</h1>
         <div className='zip-container-row'>
-          <input type='text' placeholder='Mexico City, Mexico' />
-          <button type='submit'>Submit</button>
+          <input className='form-control' type='text' placeholder='Mexico City, Mexico' />
+          <button className='btn btn-success' type='submit'>Get Weather</button>
         </div>
       </div>
     )
