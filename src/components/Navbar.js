@@ -1,4 +1,5 @@
 var React = require('react');
+var CityInput = require('./CityInput');
 
 class Header extends React.Component {
   render() {
@@ -6,8 +7,7 @@ class Header extends React.Component {
       <div className='navbar'>
         <h1>Clever Title</h1>
         <div className='zip-container-row'>
-          <input className='form-control' type='text' placeholder='Mexico City, Mexico' />
-          <button className='btn btn-success' type='submit'>Get Weather</button>
+          <CityInput isRowLayout={true} />
         </div>
       </div>
     )
